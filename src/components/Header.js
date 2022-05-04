@@ -1,15 +1,14 @@
 import React from 'react';
 import Typed from 'react-typed';
-import image from '../image/WhatsApp.jpeg'
+import image from '../image/WhatsApp.jpeg';
 import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <>
             {/* Section */}
-            <section className='m-auto h-full bg-slate-700 '>
+            <section className='h-full bg-slate-700 '>
 
                 {/* Container */}
                 <div className='max-w-[1140px] m-auto flex flex-col md:flex-row md:justify-between '>
@@ -39,18 +38,29 @@ const Header = () => {
                     <div className='pt-20 px-8 flex items-center justify-center  '>
                         <img src={image} alt="" />
                     </div>
-
-                    {/* Social Media  */}
-                    <div className='py-8 flex justify-center items-center space-x-8'>
-                        <Link to={{ pathname: "https://github.com/SUM-X-0604" }} target="_blank">
-                            <AiFillGithub size={20} />
-                        </Link>
-                        <AiFillLinkedin size={20} />
-                        <FaInstagramSquare size={20} />
-                        <FaTwitter size={20} />
-                    </div>
-
                 </div>
+
+
+                {/* Social Media  */}
+                <div className='py-6 px-8 max-w-[300px] m-auto flex justify-center flex-shrink-0 items-center space-x-16 '>
+                    {/* Github */}
+                    <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer">
+                        <AiFillGithub size={20} />
+                    </a>
+                    {/* Twitter */}
+                    <a href="https://twitter.com/_Fire_hawk" target="_blank" rel="noreferrer">
+                        <FaTwitter size={20} />
+                    </a>
+                    {/* Linkedin */}
+                    <a href="https://www.linkedin.com/in/sumit-verma-07835a210/" target="_blank" rel="noreferrer">
+                        <AiFillLinkedin size={20} />
+                    </a>
+                    {/* instagram */}
+                    <a href="https://www.instagram.com/__fire_hawk/" target="_blank" rel="noreferrer">
+                        <FaInstagramSquare size={20} />
+                    </a>
+                </div>
+
             </section>
         </>
     )

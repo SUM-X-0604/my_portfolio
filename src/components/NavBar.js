@@ -30,6 +30,9 @@ const Navbar = () => {
                                 className="navlink">Service
                             </li>
                             <li
+                                className="navlink">Projects
+                            </li>
+                            <li
                                 className="navlink">Contact
                             </li>
                         </ul>
@@ -58,7 +61,8 @@ const Navbar = () => {
                         <ul className="space-y-4">
                             <li className="py-2 cursor-pointer ">Home</li>
                             <li className="py-2 cursor-pointer">About</li>
-                            <li className="py-2 cursor-pointer">Service</li>
+                            <li className="py-2 cursor-pointer">Services</li>
+                            <li className="py-2 cursor-pointer">Projects</li>
                             <li className="py-2 cursor-pointer">Contact</li>
                         </ul>
                     </div>
