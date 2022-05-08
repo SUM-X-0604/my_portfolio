@@ -5,11 +5,11 @@ import image from '../image/WhatsApp.jpeg';
 const About = () => {
     return (
         <>
-            <section className='py-8 bg-gray-700 top-0'>
+            <section className='py-8 top-0'>
 
                 {/* heading */}
                 <div>
-                    <h1 className='py-4 text-2xl underline font-bold text-[#5977D6] flex justify-center'>ABOUT</h1>
+                    <h1 className='py-4 text-2xl underline font-bold text-[#5977D6] flex justify-center'>ABOUT ME</h1>
                 </div>
 
 

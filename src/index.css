@@ -7,4 +7,12 @@
     .navlink {
         @apply cursor-pointer transition hover:scale-110 ease-in-out hover:text-indigo-800
     }
+
+    .skillsList{
+        @apply gap-y-6 pl-7
+    }
+
+    .skillItem {
+        @apply flex justify-between items-center py-4
+    }
 }
