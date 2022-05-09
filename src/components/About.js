@@ -72,7 +72,7 @@ const About = () => {
                     </div>
 
                     {/* Image */}
-                    <div className='py-4 px-8'>
+                    <div data-aos="zoom-in" className='py-4 px-8'>
                         <img src={image} alt="" />
                     </div>
                 </div>

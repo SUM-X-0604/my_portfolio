@@ -28,10 +28,10 @@ const Navbar = () => {
                 <div className="max-w-[1140px] m-auto flex justify-between items-center h-full  ">
 
                     {/* desktop view */}
-                    <div>
+                    <div data-aos="fade-right">
                         <h1 className="text-2xl font-bold cursor-pointer text-gray-200">SUMIT</h1>
                     </div>
-                    <div className="hidden sm:block ">
+                    <div className="hidden sm:block " data-aos="fade-left">
                         <ul className="flex text-gray-200 text-xl items-center space-x-6 font-semibold ">
                             <li
                                 className="navlink">Home
@@ -70,6 +70,7 @@ const Navbar = () => {
                                 ? "bkd w-full absolute z-100  text-gray-200 flex font-bold text-xl justify-center text-center left-0 top-20 py-8 drop-shadow-2xl md:hidden "
                                 : "absolute left-[-100%]"
                         }
+
                     >
                         <ul className="space-y-4">
                             <li className="py-2 cursor-pointer ">Home</li>
@@ -88,4 +89,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

@@ -8,6 +8,9 @@ import Offer from "./components/Offer";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Loader from "./components/Loader";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
 
@@ -19,6 +22,10 @@ function App() {
       setLoading(false)
     }, 1000);
   }, []);
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <>

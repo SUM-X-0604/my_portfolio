@@ -17,9 +17,9 @@ const Footer = () => {
 
                 {/* links */}
                 <div className='py-8 px-8 flex flex-col '>
-                    <Link to='/' className='footer_link'>About</Link>
-                    <Link to='/' className='py-2 footer_link'>Services</Link>
-                    <Link to='/' className='footer_link'>Projects</Link>
+                    <Link to='/' className='footer_link' data-aos="fade-left">About</Link>
+                    <Link to='/' className='py-2 footer_link' data-aos="fade-right">Services</Link>
+                    <Link to='/' className='footer_link' data-aos="fade-left">Projects</Link>
                 </div>
 
                 {/* social media */}

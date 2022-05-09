@@ -3,7 +3,7 @@ import project from '../image/newproject.png'
 
 const Offer = () => {
     return (
-        <div className='h-full max-w-[800px] m-auto rounded-lg bg-[#100E1B]'>
+        <div className='h-full max-w-[800px] m-auto rounded-lg bg-[#100E1B]' data-aos="zoom-out-down">
             <div className='flex flex-col items-center justify-center max-w-[90%] m-auto py-8 flex-wrap'>
                 {/* left */}
                 <div className=' flex flex-col justify-center items-center'>

@@ -3,15 +3,8 @@ import Typed from 'react-typed';
 import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 
 const Header = () => {
-
-    useEffect(() => {
-        AOS.init();
-    }, [])
 
     return (
         <>

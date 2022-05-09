@@ -21,7 +21,7 @@ const Services = () => {
 
     return (
         <div className='py-10 flex flex-col flex-grow justify-center items-center'>
-            <div className='h-48 w-80 bg-[#080047F5] mx-auto'>
+            <div className='h-48 w-80 bg-[#080047F5] mx-auto' data-aos="fade-right">
                 <div className='flex flex-col items-left pl-8 pt-12'>
                     <CgWebsite className='h-10 w-10 text-blue-800 ' />
                     <h1 className='pt-4 pb-2 text-xl font-semibold text-gray-300'>UI/UX Designer</h1>
@@ -34,7 +34,7 @@ const Services = () => {
             </div>
 
             <div className='py-4'>
-                <div className='h-48 w-80 bg-[#080047F5] mx-auto'>
+                <div className='h-48 w-80 bg-[#080047F5] mx-auto' data-aos="fade-left">
                     <div className='flex flex-col items-left pl-8 pt-10'>
                         <div className='flex'>
                             <MdKeyboardArrowLeft className='h-16 w-8 text-blue-800 ' />
