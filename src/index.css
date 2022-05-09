@@ -21,6 +21,7 @@
     }
 }
 
+/* scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -35,6 +36,9 @@
     border-radius: 50px;
 }
 
+/* scroll bar end */
+
+/* technology button */
 .tech{
     display: flex;
     flex-wrap: wrap;
@@ -52,8 +56,10 @@
     text-align: center;
     border-radius: 5px;
 }
+/* technology button end*/
 
 
+/* Header button */
 .header-button {
     outline: 0;
     background: transparent;
@@ -99,6 +105,9 @@
     color: #1c0c5b;
 }
 
+/* Header button end */
+
+/* footer image */
 .contact-container {
     width: 100%;
     height: 100%;
@@ -109,11 +118,73 @@
     background: url(./image/Sprinkle.svg);
 }
 
+/* footer image end */
+
+/* back drop filter */
 .bkd{
     backdrop-filter: blur(20px) saturate(200%);
     background-color: rgba(61, 44, 141, 0.66);
 }
+/* back drop filter end*/
 
+
+
+/* Loader */
+/* From uiverse.io by @gagan-gv */
+.spinner {
+ height: 100vh;
+ width: 100vw;
+ font-size: 22px;
+ font-weight: 1000;
+ font-family: monospace;
+ letter-spacing: 1em;
+ color: white;
+ background: #1C0C5B;
+ filter: drop-shadow(0 0 10px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.spinner span {
+ animation: loading6454 1.75s ease infinite;
+}
+
+.spinner span:nth-child(2) {
+ animation-delay: 0.25s;
+}
+
+.spinner span:nth-child(3) {
+ animation-delay: 0.5s;
+}
+
+.spinner span:nth-child(4) {
+ animation-delay: 0.75s;
+}
+
+.spinner span:nth-child(5) {
+ animation-delay: 1s;
+}
+
+.spinner span:nth-child(6) {
+ animation-delay: 1.25s;
+}
+
+.spinner span:nth-child(7) {
+ animation-delay: 1.5s;
+}
+
+@keyframes loading6454 {
+ 0%, 100% {
+  transform: translateY(0);
+ }
+
+ 50% {
+  transform: translateY(-10px);
+ }
+}
+
+/* Loader end */
 
 
 
