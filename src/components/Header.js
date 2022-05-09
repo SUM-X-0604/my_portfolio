@@ -1,13 +1,14 @@
 import React from 'react';
 import Typed from 'react-typed';
 import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Header = () => {
     return (
         <>
             {/* Section */}
             <section className='h-[100%] '>
+
                 {/* Container */}
                 <div div className='max-w-[1140px] m-auto flex flex-col'>
 

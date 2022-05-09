@@ -3,16 +3,29 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
+    const [scroll, setScroll] = useState(false);
+
     const menuHandler = () => {
         setNav(!nav);
     };
+
+    const background = () => {
+        if (window.scrollY >= 60) {
+            setScroll(true)
+        } else {
+            setScroll(false)
+        }
+    }
+
+    window.addEventListener('scroll', background)
+
 
     return (
         <>
             {/* navbar */}
             {/* navbar */}
-            <nav className="max-w-[1140px] m-auto w-full h-20 px-6 bg-transparent bg-scroll sticky top-0 ">
-                <div className="max-w-[1240px] mx-auto px-4 flex justify-between items-center h-full ">
+            <nav className={scroll ? 'bkd w-full h-20 px-6 bg-transparent bg-scroll sticky top-0 bg-red-600' : "w-full h-20 px-6 bg-transparent bg-scroll sticky top-0 "}>
+                <div className="max-w-[1140px] m-auto flex justify-between items-center h-full  ">
 
                     {/* desktop view */}
                     <div>
@@ -54,7 +67,7 @@ const Navbar = () => {
                     <div
                         className={
                             nav
-                                ? "w-full absolute z-100  text-gray-200 flex font-bold text-xl justify-center text-center left-0 top-20 py-8 drop-shadow-2xl md:hidden "
+                                ? "bkd w-full absolute z-100  text-gray-200 flex font-bold text-xl justify-center text-center left-0 top-20 py-8 drop-shadow-2xl md:hidden "
                                 : "absolute left-[-100%]"
                         }
                     >
@@ -75,3 +88,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

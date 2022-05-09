@@ -21,6 +21,20 @@
     }
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #6600ff;
+    border-radius: 50px;
+}
+
 .tech{
     display: flex;
     flex-wrap: wrap;
@@ -93,4 +107,22 @@
     position: relative;
     background: url(./image/Sprinkle.svg);
 }
+
+.bkd{
+    backdrop-filter: blur(20px) saturate(200%);
+    background-color: rgba(61, 44, 141, 0.66);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
