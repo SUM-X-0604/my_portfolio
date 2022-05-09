@@ -6,7 +6,7 @@ import { GoLocation } from 'react-icons/go'
 
 const Contact = () => {
     return (
-        <div className='py-8 '>
+        <div className='pt-16 pb-8 '>
             {/* contact heading */}
             <div className='flex flex-col justify-center items-center'>
                 <h1 className='text-2xl font-bold text-gray-200'>Contact Me</h1>

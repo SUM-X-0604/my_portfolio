@@ -45,13 +45,14 @@
 .tech > p {
     background: #080047F5;
     border: 1px solid #30206F;
-    font-size: 9px;
+    font-size: 10px;
     color: #f6ccef;
     padding: 13px 15px;
     width: 100px;
     text-align: center;
     border-radius: 5px;
 }
+
 
 .header-button {
     outline: 0;

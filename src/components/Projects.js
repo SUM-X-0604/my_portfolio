@@ -55,7 +55,7 @@ const Projects = () => {
                             {/* techs */}
                             <div className='tech py-4'>
                                 <p>Tailwind</p>
-                                <p className='px-8'>REACTJS</p>
+                                <p>REACTJS</p>
                                 <p>AXIOS</p>
                                 <p>COINGEKO API</p>
                             </div>

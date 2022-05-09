@@ -12,7 +12,6 @@ const About = () => {
                     <h1 className='py-4 text-2xl font-bold text-gray-400 '>ABOUT ME</h1>
                 </div>
 
-
                 {/* container */}
                 <div className='flex flex-col justify-center items-center'>
 
