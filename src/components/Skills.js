@@ -5,13 +5,15 @@ const Skills = () => {
     return (
         <div>
             {/* heading */}
-            <div>
-                <h1 className='py-4 text-2xl underline font-bold text-[#5977D6] flex justify-center'>Skills</h1>
+            <div className='flex justify-center'>
+                <h1 className='py-4 text-2xl font-bold text-gray-600 '>SKILLS</h1>
             </div>
 
             {/* skills header */}
-            <div className='flex pb-4'>
-                <RiBracesFill className='h-8 w-8' />
+            <div className='flex py-4'>
+                <div className='pl-4'>
+                    <RiBracesFill className='h-8 w-8' />
+                </div>
                 <div className='pl-6'>
                     <p>
                         Frontend Developement

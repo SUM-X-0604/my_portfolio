@@ -20,12 +20,12 @@ const Services = () => {
     }
 
     return (
-        <div className='py-10'>
-            <div className='h-48 w-80 bg-slate-200 mx-auto'>
+        <div className='py-10 flex flex-col flex-grow justify-center items-center'>
+            <div className='h-48 w-80 bg-[#080047F5] mx-auto'>
                 <div className='flex flex-col items-left pl-8 pt-12'>
                     <CgWebsite className='h-10 w-10 text-blue-800 ' />
-                    <h1 className='pt-4 pb-2 text-xl font-semibold'>UI/UX Designer</h1>
-                    <span className='w-32 font-semibold text-blue-900 flex items-center cursor-pointer' onClick={openUIModal}>
+                    <h1 className='pt-4 pb-2 text-xl font-semibold text-gray-300'>UI/UX Designer</h1>
+                    <span className='w-32 font-semibold text-gray-500 flex items-center cursor-pointer' onClick={openUIModal}>
                         View More
                         <UiModal uiModal={showUIModal} />
                         <AiOutlineArrowRight className='h-10 w-4 mx-3 text-blue-900' />
@@ -34,14 +34,14 @@ const Services = () => {
             </div>
 
             <div className='py-4'>
-                <div className='h-48 w-80 bg-slate-200 mx-auto'>
+                <div className='h-48 w-80 bg-[#080047F5] mx-auto'>
                     <div className='flex flex-col items-left pl-8 pt-10'>
                         <div className='flex'>
                             <MdKeyboardArrowLeft className='h-16 w-8 text-blue-800 ' />
                             <MdKeyboardArrowRight className='h-16 w-8 text-blue-800 ' />
                         </div>
-                        <h1 className='pb-2 text-xl font-semibold'>Frontend Developer</h1>
-                        <button className='font-semibold text-blue-900 flex items-center cursor-pointer' onClick={openFrModal}>
+                        <h1 className='pb-2 text-xl text-gray-300  font-semibold'>Frontend Developer</h1>
+                        <button className='font-semibold text-gray-500 flex items-center cursor-pointer' onClick={openFrModal}>
                             View More
                             <FrontendModal frModal={showFRModal} />
                             <AiOutlineArrowRight className='h-10 w-4 mx-3 text-blue-900' />

@@ -23,7 +23,7 @@ export default function UiModal({ frModal }) {
                                             <li className="flex items-start">
                                                 <AiOutlineCheckCircle className="h-10 w-4" />
                                             </li>
-                                            <li className="px-3 py-2 text-white text-left">
+                                            <li className="px-3 py-2 text-gray-400 text-left">
                                                 I develop highly responsive web applications
                                             </li>
                                         </ul>
@@ -33,7 +33,7 @@ export default function UiModal({ frModal }) {
                                             <li className="flex items-start">
                                                 <AiOutlineCheckCircle className="h-10 w-4" />
                                             </li>
-                                            <li className="px-3 py-2 text-white text-left">
+                                            <li className="px-3 py-2 text-gray-400  text-left">
                                                 I incorporate practical user UI strategies to build a perfect user interface
                                             </li>
                                         </ul>
@@ -43,7 +43,7 @@ export default function UiModal({ frModal }) {
                                             <li className="flex items-start">
                                                 <AiOutlineCheckCircle className="h-10 w-4" />
                                             </li>
-                                            <li className="px-3 py-2 text-white text-left">
+                                            <li className="px-3 py-2 text-gray-400  text-left">
                                                 i position your company's brand
                                             </li>
                                         </ul>

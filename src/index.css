@@ -15,4 +15,82 @@
     .skillItem {
         @apply flex justify-between items-center py-4
     }
+
+    .footer_link{
+        @apply font-semibold text-gray-300
+    }
 }
+
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tech > p {
+    background: #080047F5;
+    border: 1px solid #30206F;
+    font-size: 9px;
+    color: #f6ccef;
+    padding: 13px 15px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header-button {
+    outline: 0;
+    background: transparent;
+    border: 1px solid #916bbf;
+    border-radius: 5px;
+    color: #f6ccef;
+    margin-top: 10px;
+    min-width: 130px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.header-button:hover {
+    color: #fff;
+}
+
+.header-button:hover:after {
+    width: 100%;
+}
+
+.header-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #3d2c8d;
+}
+
+.header-button:active {
+    color: #1c0c5b;
+}
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: relative;
+    background: url(./image/Sprinkle.svg);
+}
+

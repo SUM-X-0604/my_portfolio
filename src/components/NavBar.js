@@ -16,10 +16,10 @@ const Navbar = () => {
 
                     {/* desktop view */}
                     <div>
-                        <h1 className="text-2xl font-bold cursor-pointer text-black">SUMIT</h1>
+                        <h1 className="text-2xl font-bold cursor-pointer text-gray-200">SUMIT</h1>
                     </div>
                     <div className="hidden sm:block ">
-                        <ul className="flex text-black text-xl items-center space-x-6 font-semibold ">
+                        <ul className="flex text-gray-200 text-xl items-center space-x-6 font-semibold ">
                             <li
                                 className="navlink">Home
                             </li>
@@ -44,9 +44,9 @@ const Navbar = () => {
                         className="block sm:hidden"
                     >
                         {nav ? (
-                            <AiOutlineClose size={20} className="sm:hidden " />
+                            <AiOutlineClose size={20} className="sm:hidden text-gray-200" />
                         ) : (
-                            <AiOutlineMenu size={20} className="sm:hidden " />
+                            <AiOutlineMenu size={20} className="sm:hidden text-gray-200 " />
                         )}
                     </div>
 
@@ -54,7 +54,7 @@ const Navbar = () => {
                     <div
                         className={
                             nav
-                                ? "w-full absolute bg-slate-700 text-black flex font-bold text-xl justify-center text-center left-0 top-20 py-8 drop-shadow-2xl md:hidden "
+                                ? "w-full absolute z-100  text-gray-200 flex font-bold text-xl justify-center text-center left-0 top-20 py-8 drop-shadow-2xl md:hidden "
                                 : "absolute left-[-100%]"
                         }
                     >

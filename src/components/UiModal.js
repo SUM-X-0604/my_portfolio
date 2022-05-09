@@ -23,7 +23,7 @@ export default function UiModal({ uiModal }) {
                                             <li>
                                                 <AiOutlineCheckCircle className="h-10 w-4" />
                                             </li>
-                                            <li className="px-3 text-white text-left">
+                                            <li className="px-3 text-gray-400  text-left">
                                                 I provide insights into product design
 
                                             </li>
@@ -34,7 +34,7 @@ export default function UiModal({ uiModal }) {
                                             <li className="flex items-start">
                                                 <AiOutlineCheckCircle className="h-10 w-4" />
                                             </li>
-                                            <li className="px-3 py-2 text-white text-left">
+                                            <li className="px-3 py-2 text-gray-400  text-left">
                                                 I enhance the user's experience based on business objectives and user's prespective
                                             </li>
                                         </ul>
