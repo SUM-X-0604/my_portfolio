@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Typed from 'react-typed';
 import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const Header = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <>
             {/* Section */}
@@ -15,13 +24,13 @@ const Header = () => {
                     {/* Text */}
                     <div className='flex flex-col items-center justify-center py-8'>
                         <div className='flex flex-col justify-center items-center'>
-                            <div className='text-xl font-semibold py-2 text-gray-500'>
+                            <div data-aos="fade-right" className='text-xl font-semibold py-2 text-gray-500'>
                                 <h1>Hii, My Name is</h1>
                             </div>
-                            <div className='text-4xl font-bold text-white pb-2'>
+                            <div data-aos="fade-left" className='text-4xl font-bold text-white pb-2'>
                                 <h1>Sumit Verma</h1>
                             </div>
-                            <div className='pb-2'>
+                            <div className='pb-2' data-aos="fade-down">
                                 <h1 className='text-lg text-gray-500' >Frontend Developer</h1>
                             </div>
                             <div className='py-4 text-2xl font-semibold capitalize text-gray-400'>
@@ -33,14 +42,14 @@ const Header = () => {
                                 />
                             </div>
 
-                            <div className='text-center text-gray-500 px-2 pb-4 '>
+                            <div data-aos="fade-up" className='text-center text-gray-500 px-2 pb-4 '>
                                 <p>Innovative Front End Developer with good experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences.</p>
                             </div>
                             <div className='flex flex-col text-gray-500'>
-                                <button className='header-button'>
+                                <button data-aos="fade-right" className='header-button'>
                                     Hire Me
                                 </button>
-                                <button className='header-button '>
+                                <button data-aos="fade-left" className='header-button '>
                                     View Resume
                                 </button>
                             </div>
