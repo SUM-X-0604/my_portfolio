@@ -1,5 +1,7 @@
 import React from 'react';
 import image from '../image/about.svg';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 
 const About = () => {
@@ -20,51 +22,79 @@ const About = () => {
                         {/* Details */}
                         <div className='px-8 text-lg flex justify-center items-center flex-col text-gray-500'>
                             <div>
-                                <p>Hello, my name is <span className='font-semibold'>Sumit Verma.</span><br /> I am a Frontend web developer who resides in Raipur(C.G.). I am BCA Graduate and MCA second year student.
-                                    <br /> My job is to create attractive websites that users can easily interact with.
-                                    <br /> My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
-                                    <br />
-                                    Currently, I am seeking an entry level job in Frontend web development to utilize my digital skills and gain industry knowledge.
+                                <p>Hello, my name is <span className='font-semibold'>Sumit Verma.</span><br />
+                                    <Slide bottom>
+                                        <p>
+                                            I am a Frontend web developer who resides in Raipur(C.G.). I am BCA Graduate and MCA second year student.
+                                        </p>
 
-                                    <br /><br />
-                                    Here are techonologies I've been working with currently:
+                                        <p>
+                                            My job is to create attractive websites that users can easily interact with.
+                                        </p>
+                                        <p>
+                                            My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                                        </p>
+
+                                        <p>
+                                            Currently, I am seeking an entry level job in Frontend web development to utilize my digital skills and gain industry knowledge.
+                                        </p>
+                                        <br />
+                                        Here are techonologies I've been working with currently:
+                                    </Slide>
                                 </p>
                             </div>
                             {/* techs */}
                             <div className='flex justify-center'>
                                 <div className='tech py-8'>
-                                    <p >HTML5
-                                        <i className="devicon-html5-plain-wordmark colored px-1 ">
-                                        </i>
-                                    </p>
-                                    <p >CSS3
-                                        <i className="devicon-css3-plain-wordmark colored px-1">
-                                        </i>
-                                    </p>
-                                    <p >TAILWIND
-                                        <i className="devicon-tailwindcss-original-wordmark colored px-1">
-                                        </i>
-                                    </p>
-                                    <p >JAVASCRIPT
-                                        <i className="devicon-javascript-plain colored px-1">
-                                        </i>
-                                    </p>
-                                    <p >REACT
-                                        <i className="devicon-react-original-wordmark colored px-1">
-                                        </i>
-                                    </p>
-                                    <p >NEXT JS
-                                        <i className=" devicon-nextjs-original px-1">
-                                        </i>
-                                    </p>
-                                    <p >FIREBASE
-                                        <i className="devicon-firebase-plain-wordmark colored px-1 ">
-                                        </i>
-                                    </p>
-                                    <p >GITHUB
-                                        <i className="devicon-github-original px-1">
-                                        </i>
-                                    </p>
+                                    <Slide left>
+                                        <p >HTML5
+                                            <i className="devicon-html5-plain-wordmark colored px-1 ">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide right>
+                                        <p >CSS3
+                                            <i className="devicon-css3-plain-wordmark colored px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide left>
+                                        <p >TAILWIND
+                                            <i className="devicon-tailwindcss-original-wordmark colored px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide right>
+                                        <p >JAVASCRIPT
+                                            <i className="devicon-javascript-plain colored px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide left>
+                                        <p >REACT
+                                            <i className="devicon-react-original-wordmark colored px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide right>
+                                        <p >NEXT JS
+                                            <i className=" devicon-nextjs-original px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide left>
+
+                                        <p >FIREBASE
+                                            <i className="devicon-firebase-plain-wordmark colored px-1 ">
+                                            </i>
+                                        </p>
+                                    </Slide>
+                                    <Slide right>
+                                        <p >GITHUB
+                                            <i className="devicon-github-original px-1">
+                                            </i>
+                                        </p>
+                                    </Slide>
                                 </div>
                             </div>
 
@@ -73,7 +103,9 @@ const About = () => {
 
                     {/* Image */}
                     <div className='py-4 px-8' >
-                        <img src={image} alt="" />
+                        <Zoom bottom>
+                            <img src={image} alt="" />
+                        </Zoom>
                     </div >
                 </div >
             </section >

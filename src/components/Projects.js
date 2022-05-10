@@ -3,6 +3,8 @@ import amazon from '../image/amazon.PNG';
 import crypto from '../image/crypto.PNG';
 import college from '../image/college.PNG';
 import game from '../image/number.PNG';
+import Zoom from 'react-reveal/Zoom';
+import Flash from 'react-reveal/Flash';
 
 
 
@@ -26,9 +28,11 @@ const Projects = () => {
                     <div className='flex justify-center items-center flex-grow'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
-                            <a href='/'>
-                                <img src={amazon} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
-                            </a>
+                            <Zoom bottom>
+                                <a href='/'>
+                                    <img src={amazon} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                </a>
+                            </Zoom>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>AMAZON CLONE</span>
                             {/* techs */}
@@ -47,10 +51,11 @@ const Projects = () => {
                     <div className='flex justify-center items-center flex-grow py-8'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
-                            <a href='/'>
-                                <img src={crypto} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow'
-                                />
-                            </a>
+                            <Zoom bottom>
+                                <a href='/'>
+                                    <img src={crypto} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                </a>
+                            </Zoom>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>CRYPTO TRACKER</span>
                             {/* techs */}
@@ -70,9 +75,11 @@ const Projects = () => {
                     <div className='flex justify-center items-center flex-grow'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center py-8 '>
-                            <a href='/'>
-                                <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
-                            </a>
+                            <Zoom bottom>
+                                <a href='/'>
+                                    <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                </a>
+                            </Zoom>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>COLLEGE WEBSITE</span>
                             {/* techs */}
@@ -91,9 +98,11 @@ const Projects = () => {
                     <div className='flex justify-center items-center flex-grow pt-8'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
-                            <a href='/'>
-                                <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
-                            </a>
+                            <Zoom bottom>
+                                <a href='/'>
+                                    <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                </a>
+                            </Zoom>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>NUMBER GAME</span>
                             {/* techs */}
