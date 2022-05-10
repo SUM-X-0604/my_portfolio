@@ -15,19 +15,19 @@ const Contact = () => {
     // }, []);
 
     return (
-        <div className='w-[100%] pt-16 pb-8 ' id='contact'>
+        <div className='max-w-[1240px] m-auto pt-16 pb-8 lg:pt-24 ' id='contact'>
             {/* contact heading */}
 
             <div className='flex flex-col justify-center items-center'>
-                <h1 className='text-2xl font-bold text-gray-200'>Contact Me</h1>
-                <p className='text-md text-gray-500 font-semibold'>Get in touch</p>
+                <h1 className='text-2xl font-bold text-gray-200 md:text-3xl'>Contact Me</h1>
+                <p className='text-md text-gray-500 font-semibold md:text-lg'>Get in touch</p>
             </div>
 
 
-            <div className='py-8 px-4 flex flex-col items-start'>
+            <div className='py-8 px-4 flex flex-col items-start lg:flex-row lg:items-center lg:justify-evenly'>
 
                 {/* contact links 1st */}
-                <div className='flex  items-center px-4 pt-8'>
+                <div className='flex items-center px-4 pt-8'>
                     <Fade left>
                         <div className='pr-4' >
                             <UilPhone className="h-8 w-10 text-blue-700" />

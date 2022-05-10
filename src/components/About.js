@@ -7,25 +7,25 @@ import Zoom from 'react-reveal/Zoom';
 const About = () => {
     return (
         <div>
-            <section className='py-2 top-0' id='about'>
+            <section className='max-w-[1240px] m-auto py-8 top-0' id='about'>
 
                 {/* heading */}
-                <div className='flex justify-center'>
-                    <h1 className='py-4 text-2xl font-bold text-gray-400 '>ABOUT ME</h1>
+                <div className='flex justify-center pb-8 '>
+                    <h1 className='text-2xl font-bold text-gray-400 sm:text-3xl md:text-4xl lg:text-5xl'>ABOUT ME</h1>
                 </div>
 
                 {/* container */}
-                <div className='flex flex-col justify-center items-center'>
+                <div className='flex flex-col justify-center items-center md:flex-row'>
 
                     {/* Text container */}
-                    <div className='px-4 flex flex-col justify-center items-center md:max-w-[500px]'>
+                    <div className='px-4 flex flex-col justify-center items-center'>
                         {/* Details */}
-                        <div className='px-8 text-lg flex justify-center items-center flex-col text-gray-500'>
+                        <div className='px-8 flex justify-center items-center flex-col text-gray-500'>
                             <Slide bottom>
-                                <div>
+                                <div className='md:text-lg lg:text-xl'>
                                     <p>
                                         Hello, my name is
-                                        <span className='font-semibold'>Sumit Verma.
+                                        <span className='font-semibold px-1'> Sumit Verma.
                                         </span>
                                     </p>
                                     <p>
@@ -51,64 +51,64 @@ const About = () => {
                             </Slide>
                             {/* techs */}
                             <div className='flex justify-center'>
-                                <div className='tech py-8'>
+                                <div className='tech py-8 text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px]'>
                                     <Slide left>
-                                        <p >HTML5
+                                        <p className='py-3'>
+                                            HTML5
                                             <i className="devicon-html5-plain-wordmark colored px-1 ">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide right>
-                                        <p >CSS3
+                                        <p className='py-3'>CSS3
                                             <i className="devicon-css3-plain-wordmark colored px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide left>
-                                        <p >TAILWIND
+                                        <p className='py-3'>TAILWIND
                                             <i className="devicon-tailwindcss-original-wordmark colored px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide right>
-                                        <p >JAVASCRIPT
+                                        <p className='py-3' >JAVASCRIPT
                                             <i className="devicon-javascript-plain colored px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide left>
-                                        <p >REACT
+                                        <p className='py-3'>REACT
                                             <i className="devicon-react-original-wordmark colored px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide right>
-                                        <p >NEXT JS
+                                        <p className='py-3'>NEXT JS
                                             <i className=" devicon-nextjs-original px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide left>
 
-                                        <p >FIREBASE
+                                        <p className='py-3'>FIREBASE
                                             <i className="devicon-firebase-plain-wordmark colored px-1 ">
                                             </i>
                                         </p>
                                     </Slide>
                                     <Slide right>
-                                        <p >GITHUB
+                                        <p className='py-3' >GITHUB
                                             <i className="devicon-github-original px-1">
                                             </i>
                                         </p>
                                     </Slide>
                                 </div>
                             </div>
-
-                        </div >
-                    </div >
+                        </div>
+                    </div>
 
                     {/* Image */}
-                    <div className='py-4 px-8' >
+                    <div className='py-4 px-10 sm:px-16 md:px-6 lg:px-2' >
                         <Zoom bottom>
                             <img src={image} alt="" />
                         </Zoom>

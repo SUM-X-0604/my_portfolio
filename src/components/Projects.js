@@ -3,20 +3,20 @@ import amazon from '../image/amazon.PNG';
 import crypto from '../image/crypto.PNG';
 import college from '../image/college.PNG';
 import game from '../image/number.PNG';
+import ping from '../image/ping-game.PNG'
 import Zoom from 'react-reveal/Zoom';
-import Flash from 'react-reveal/Flash';
 
 
 
 const Projects = () => {
     return (
         // Projects container
-        <div className='py-10 max-w-[80%] m-auto' id='projects'>
+        <div className='py-10 max-w-[1240px] m-auto' id='projects'>
             {/* container */}
             <div>
                 {/* header section */}
                 <div className='flex justify-center items-center'>
-                    <h1 className='font-semibold text-gray-400 text-2xl '>
+                    <h1 className='text-2xl font-bold text-gray-400 sm:text-3xl md:text-4xl lg:text-5xl'>
                         PROJECTS
                     </h1>
                 </div>
@@ -25,7 +25,7 @@ const Projects = () => {
                 <div className='py-10 flex flex-wrap'>
 
                     {/*1st project items */}
-                    <div className='flex justify-center items-center flex-grow'>
+                    <div className='flex justify-center items-center flex-grow py-4'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
@@ -34,12 +34,12 @@ const Projects = () => {
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-2xl'>AMAZON CLONE</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>AMAZON CLONE</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p>Tailwind</p>
-                                <p className='px-8'>REACTJS</p>
-                                <p>CONTEXT API</p>
+                                <p className='py-3'>Tailwind</p>
+                                <p className='py-3'>ReactJS</p>
+                                <p className='py-3'>Context Api</p>
                             </div>
                         </div>
                     </div>
@@ -57,15 +57,13 @@ const Projects = () => {
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-2xl'>CRYPTO TRACKER</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>CRYPTO TRACKER</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p>Tailwind</p>
-                                <p>REACTJS</p>
-                                <p>AXIOS</p>
-                                <p>COINGEKO API</p>
+                                <p className='py-3'>Tailwind</p>
+                                <p className='py-3'>ReactJS</p>
+                                <p className='py-3'>Api</p>
                             </div>
-
                         </div>
                     </div>
                     {/*2nd project items end */}
@@ -81,12 +79,12 @@ const Projects = () => {
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-2xl'>COLLEGE WEBSITE</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>COLLEGE WEBSITE</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p>HTML</p>
-                                <p className='px-8'>SASS</p>
-                                <p>JAVASCRIPT</p>
+                                <p className='py-3'>Html</p>
+                                <p className='py-3'>Sass</p>
+                                <p className='py-3'>JavaScript</p>
                             </div>
 
                         </div>
@@ -104,17 +102,39 @@ const Projects = () => {
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-2xl'>NUMBER GAME</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>NUMBER GAME</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p>HTML</p>
-                                <p className='px-8'>CSS</p>
-                                <p>JAVASCRIPT</p>
+                                <p className='py-3'>Html</p>
+                                <p className='py-3'>Css</p>
+                                <p className='py-3'>JavaScript</p>
                             </div>
 
                         </div>
                     </div>
                     {/*4th project items end */}
+
+                    {/*5th project items */}
+                    <div className='flex justify-center items-center flex-grow pt-8'>
+                        {/* image */}
+                        <div className='flex flex-col items-center justify-center '>
+                            <Zoom bottom>
+                                <a href='/'>
+                                    <img src={ping} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                </a>
+                            </Zoom>
+                            {/* h1 */}
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>PING GAME</span>
+                            {/* techs */}
+                            <div className='tech py-4'>
+                                <p className='py-3'>Html</p>
+                                <p className='py-3'>Css</p>
+                                <p className='py-3'>JavaScript</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    {/*5th project items end */}
 
                 </div>
 

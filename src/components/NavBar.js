@@ -123,13 +123,25 @@ const Navbar = () => {
     }
 
     return (
-        <div className={nav ? 'nav-container active' : 'nav-container'}>
+        <div className={nav ? 'nav-container active ' : 'nav-container'}>
             <div className="navbar">
-                <div className="logo">
-                    <h1 onClick={handleScroll}>SUMIT</h1>
+                <div className="logo ">
+                    <h1 className='px-1' onClick={handleScroll}>SUMIT</h1>
                 </div>
 
                 <div className={click ? 'list-group active' : 'list-group'}>
+                    <Link
+                        className='nav-link'
+                        activeClass="active"
+                        to="header"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={500}>
+                        Home
+                    </Link>
+
+
                     <Link
                         className='nav-link'
                         activeClass="active"
@@ -141,7 +153,7 @@ const Navbar = () => {
                         About
                     </Link>
 
-                    <Link
+                    {/* <Link
                         className='nav-link'
                         activeClass="active"
                         to="services"
@@ -150,7 +162,7 @@ const Navbar = () => {
                         offset={-100}
                         duration={500}>
                         Services
-                    </Link>
+                    </Link> */}
 
                     <Link
                         className='nav-link'

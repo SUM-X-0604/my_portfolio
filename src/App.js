@@ -35,11 +35,11 @@ function App() {
             <Loader />
           </div>
           :
-          <div className="bg-[#1C0C5B] w-[100%]">
-            <NavBar />
+          <div className="bg-[#1C0C5B] ">
             <Header />
+            <NavBar />
             <About />
-            <Services />
+            {/* <Services /> */}
             <Projects />
             <Offer />
             <Contact />
