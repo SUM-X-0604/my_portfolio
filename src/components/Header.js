@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <>
             {/* Section */}
-            <section className='h-[100%] '>
+            <section className='h-[100%] pt-24 pb-12'>
 
                 {/* Container */}
                 <div div className='max-w-[1140px] m-auto flex flex-col'>
