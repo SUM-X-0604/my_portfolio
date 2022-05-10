@@ -124,6 +124,7 @@
 .bkd{
     backdrop-filter: blur(20px) saturate(200%);
     background-color: rgba(61, 44, 141, 0.66);
+    z-index: 7;
 }
 /* back drop filter end*/
 
