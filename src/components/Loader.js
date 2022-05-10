@@ -4,11 +4,16 @@ const Loader = () => {
     return (
         <>
             <div className="spinner">
-                <span>S</span>
+
+                <span>R</span>
                 <span>U</span>
-                <span>M</span>
-                <span>I</span>
-                <span>T</span>
+                <span>K</span>
+                <span>O</span>
+
+                <span>Z</span>
+                <span>A</span>
+                <span>R</span>
+                <span>A</span>
             </div>
         </>
     )

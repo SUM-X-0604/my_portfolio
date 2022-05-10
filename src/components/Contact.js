@@ -23,13 +23,13 @@ const Contact = () => {
 
                 {/* contact links 1st */}
                 <div className='flex items-center px-4 pt-8'>
-                    <Fade left>
+                    <Fade top>
                         <div className='pr-4' >
                             <UilPhone className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
                             <h1 className='text-xl font-bold text-gray-300'>Call Me</h1>
-                            <p className='text-gray-500'>7999001618</p>
+                            <p className='text-gray-500'>+91 7999001618</p>
                         </div>
                     </Fade>
                 </div>
@@ -37,7 +37,7 @@ const Contact = () => {
 
                 {/* contact links 2nd */}
                 <div className='flex items-center px-4 pt-8'>
-                    <Fade right>
+                    <Fade bottom>
                         <div className='pr-4' >
                             <AiOutlineMail className="h-8 w-10 text-blue-700" />
                         </div>
@@ -51,14 +51,14 @@ const Contact = () => {
 
                 {/* contact links 3rd */}
                 <div className='flex items-center px-4 pt-8'>
-                    <Fade left>
+                    <Fade top>
 
                         <div className='pr-4' >
                             <BsWhatsapp className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
                             <h1 className='text-xl font-bold text-gray-300'>Whatsapp</h1>
-                            <p className='text-gray-500'>7999001618</p>
+                            <p className='text-gray-500'>+91 7999001618</p>
                         </div>
                     </Fade>
                 </div>
@@ -66,7 +66,7 @@ const Contact = () => {
 
                 {/* contact links 4th */}
                 <div className='flex items-center px-4 pt-8'>
-                    <Fade right>
+                    <Fade bottom>
                         <div className='pr-4' >
                             <GoLocation className="h-8 w-10 text-blue-700" />
                         </div>
