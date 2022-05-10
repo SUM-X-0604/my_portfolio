@@ -15,7 +15,7 @@ const Contact = () => {
     // }, []);
 
     return (
-        <div className='w-[100%] pt-16 pb-8 '>
+        <div className='w-[100%] pt-16 pb-8 ' id='contact'>
             {/* contact heading */}
 
             <div className='flex flex-col justify-center items-center'>

@@ -133,7 +133,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link'
                         activeClass="active"
-                        to="/"
+                        to="about"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -144,7 +144,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link'
                         activeClass="active"
-                        to="/"
+                        to="services"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -155,7 +155,7 @@ const Navbar = () => {
                     <Link
                         className='nav-link'
                         activeClass="active"
-                        to="/"
+                        to="projects"
                         spy={true}
                         smooth={true}
                         offset={-100}
@@ -166,14 +166,13 @@ const Navbar = () => {
                     <Link
                         className='nav-link'
                         activeClass="active"
-                        to="/"
+                        to="contact"
                         spy={true}
                         smooth={true}
                         offset={-100}
                         duration={500}>
                         Contact
                     </Link>
-
                 </div>
 
 

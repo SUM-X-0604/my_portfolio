@@ -21,7 +21,7 @@ const Services = () => {
     }
 
     return (
-        <div className='py-10 flex flex-col flex-grow justify-center items-center'>
+        <div className='py-10 flex flex-col flex-grow justify-center items-center' id='services'>
             <Fade left>
                 <div className='h-48 w-80 bg-[#080047F5] mx-auto' >
                     <div className='flex flex-col items-left pl-8 pt-12'>

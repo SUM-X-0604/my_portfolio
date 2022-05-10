@@ -11,7 +11,7 @@ import Flash from 'react-reveal/Flash';
 const Projects = () => {
     return (
         // Projects container
-        <div className='py-10 max-w-[80%] m-auto'>
+        <div className='py-10 max-w-[80%] m-auto' id='projects'>
             {/* container */}
             <div>
                 {/* header section */}

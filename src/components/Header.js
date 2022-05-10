@@ -13,13 +13,13 @@ const Header = () => {
     return (
         <>
             {/* Section */}
-            <section className='h-[100%] pt-24 pb-12'>
+            < section className='h-[100%] pt-24 pb-12' >
 
                 {/* Container */}
-                <div div className='max-w-[1140px] m-auto flex flex-col'>
+                < div div className='max-w-[1140px] m-auto flex flex-col' >
 
                     {/* Text */}
-                    <div className='flex flex-col items-center justify-center py-8'>
+                    <div div className='flex flex-col items-center justify-center py-8' >
                         <div className='flex flex-col justify-center items-center'>
                             <div className='text-xl font-semibold py-2 text-gray-500'>
                                 <h1>Hii, My Name is</h1>
@@ -43,11 +43,11 @@ const Header = () => {
                                 />
                             </div>
 
-                            <Fade left big>
-                                <div className='text-center text-gray-500 px-2 pb-4 '>
+                            <div className='text-center text-gray-500 px-2 pb-4 '>
+                                <Fade left big>
                                     <p>Innovative Front End Developer with good experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences.</p>
-                                </div>
-                            </Fade>
+                                </Fade>
+                            </div>
                             <div className='flex flex-col text-gray-500'>
                                 <LightSpeed left>
                                     <button className='header-button'>
@@ -61,7 +61,7 @@ const Header = () => {
                                 </LightSpeed>
                             </div>
                         </div>
-                    </div>
+                    </div >
                     {/* text end */}
 
                     {/* Container end */}
@@ -97,8 +97,8 @@ const Header = () => {
                         </Fade>
                     </div>
                     {/* Social Media end */}
-                </div>
-            </section>
+                </div >
+            </section >
             {/* section end */}
         </>
     )

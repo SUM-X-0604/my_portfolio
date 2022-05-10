@@ -7,7 +7,7 @@ import Zoom from 'react-reveal/Zoom';
 const About = () => {
     return (
         <div>
-            <section className='py-2 top-0'>
+            <section className='py-2 top-0' id='about'>
 
                 {/* heading */}
                 <div className='flex justify-center'>
