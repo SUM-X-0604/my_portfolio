@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='py-6'>
                 {/* intro */}
                 <div className='px-8 py-8 flex items-center flex-col'>
-                    <Fade left>
+                    <Fade top>
                         <h1 className='text-2xl font-bold text-gray-300 md:text-3xl'>SUMIT</h1>
                         <p className='text-lg md:text-xl text-gray-500 font-semibold'>Frontend Developer</p>
                     </Fade>
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 {/* social media */}
                 <div className='py-6 px-8 flex justify-center flex-shrink-0 items-center space-x-16 sm:space-x-20 md:space-x-28 lg:space-x-36 text-gray-200'>
-                    <Bounce left>
+                    <Fade bottom>
                         {/* Github */}
                         <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer">
                             <AiFillGithub size={20} />
@@ -33,8 +33,6 @@ const Footer = () => {
                         <a href="https://twitter.com/_Fire_hawk" target="_blank" rel="noreferrer">
                             <FaTwitter size={20} />
                         </a>
-                    </Bounce>
-                    <Bounce right>
                         {/* Linkedin */}
                         <a href="https://www.linkedin.com/in/sumit-verma-07835a210/" target="_blank" rel="noreferrer">
                             <AiFillLinkedin size={20} />
@@ -43,7 +41,7 @@ const Footer = () => {
                         <a href="https://www.instagram.com/__fire_hawk/" target="_blank" rel="noreferrer">
                             <FaInstagramSquare size={20} />
                         </a>
-                    </Bounce>
+                    </Fade>
                 </div>
 
                 {/* copyright */}
