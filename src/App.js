@@ -8,8 +8,8 @@ import Offer from "./components/Offer";
 import Projects from "./components/Projects";
 import Services from "./components/Services";
 import Loader from "./components/Loader";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
     }, 1000);
   }, []);
 
-  useEffect(() => {
-    AOS.init();
-  }, [])
+  // useEffect(() => {
+  //   AOS.init();
+  // }, []);
 
   return (
     <>
@@ -35,7 +35,7 @@ function App() {
             <Loader />
           </div>
           :
-          <div className="bg-[#1C0C5B]">
+          <div className="bg-[#1C0C5B] w-[100%]">
             <NavBar />
             <Header />
             <About />

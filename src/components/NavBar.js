@@ -28,10 +28,10 @@ const Navbar = () => {
                 <div className="max-w-[1140px] m-auto flex justify-between items-center h-full  ">
 
                     {/* desktop view */}
-                    <div data-aos="fade-right">
+                    <div >
                         <h1 className="text-2xl font-bold cursor-pointer text-gray-200">SUMIT</h1>
                     </div>
-                    <div className="hidden sm:block " data-aos="fade-left">
+                    <div className="hidden sm:block " >
                         <ul className="flex text-gray-200 text-xl items-center space-x-6 font-semibold ">
                             <li
                                 className="navlink">Home

@@ -27,7 +27,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <a href='/'>
-                                <img src={amazon} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' data-aos="fade-left" />
+                                <img src={amazon} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                             </a>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>AMAZON CLONE</span>
@@ -49,7 +49,7 @@ const Projects = () => {
                         <div className='flex flex-col items-center justify-center '>
                             <a href='/'>
                                 <img src={crypto} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow'
-                                    data-aos="fade-right" />
+                                />
                             </a>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>CRYPTO TRACKER</span>
@@ -71,7 +71,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center py-8 '>
                             <a href='/'>
-                                <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' data-aos="fade-left" />
+                                <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                             </a>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>COLLEGE WEBSITE</span>
@@ -92,7 +92,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <a href='/'>
-                                <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' data-aos="fade-right" />
+                                <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                             </a>
                             {/* h1 */}
                             <span className='pt-8 font-bold text-gray-500 text-2xl'>NUMBER GAME</span>

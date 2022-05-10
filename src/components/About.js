@@ -4,7 +4,7 @@ import image from '../image/about.svg';
 
 const About = () => {
     return (
-        <>
+        <div>
             <section className='py-2 top-0'>
 
                 {/* heading */}
@@ -33,51 +33,51 @@ const About = () => {
                             {/* techs */}
                             <div className='flex justify-center'>
                                 <div className='tech py-8'>
-                                    <p data-aos="fade-right">HTML5
+                                    <p >HTML5
                                         <i className="devicon-html5-plain-wordmark colored px-1 ">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-left">CSS3
+                                    <p >CSS3
                                         <i className="devicon-css3-plain-wordmark colored px-1">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-right">TAILWIND
+                                    <p >TAILWIND
                                         <i className="devicon-tailwindcss-original-wordmark colored px-1">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-left">JAVASCRIPT
+                                    <p >JAVASCRIPT
                                         <i className="devicon-javascript-plain colored px-1">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-right">REACT
+                                    <p >REACT
                                         <i className="devicon-react-original-wordmark colored px-1">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-left">NEXT JS
+                                    <p >NEXT JS
                                         <i className=" devicon-nextjs-original px-1">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-right">FIREBASE
+                                    <p >FIREBASE
                                         <i className="devicon-firebase-plain-wordmark colored px-1 ">
                                         </i>
                                     </p>
-                                    <p data-aos="fade-left">GITHUB
+                                    <p >GITHUB
                                         <i className="devicon-github-original px-1">
                                         </i>
                                     </p>
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
+                        </div >
+                    </div >
 
                     {/* Image */}
-                    <div data-aos="zoom-in" className='py-4 px-8'>
+                    <div className='py-4 px-8' >
                         <img src={image} alt="" />
-                    </div>
-                </div>
-            </section>
-        </>
+                    </div >
+                </div >
+            </section >
+        </div >
     )
 }
 
