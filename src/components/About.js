@@ -21,28 +21,34 @@ const About = () => {
                     <div className='px-4 flex flex-col justify-center items-center md:max-w-[500px]'>
                         {/* Details */}
                         <div className='px-8 text-lg flex justify-center items-center flex-col text-gray-500'>
-                            <div>
-                                <p>Hello, my name is <span className='font-semibold'>Sumit Verma.</span><br />
-                                    <Slide bottom>
-                                        <p>
-                                            I am a Frontend web developer who resides in Raipur(C.G.). I am BCA Graduate and MCA second year student.
-                                        </p>
+                            <Slide bottom>
+                                <div>
+                                    <p>
+                                        Hello, my name is
+                                        <span className='font-semibold'>Sumit Verma.
+                                        </span>
+                                    </p>
+                                    <p>
+                                        I am a Frontend web developer who resides in Raipur(C.G.). I am BCA Graduate and MCA second year student.
+                                    </p>
 
-                                        <p>
-                                            My job is to create attractive websites that users can easily interact with.
-                                        </p>
-                                        <p>
-                                            My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
-                                        </p>
+                                    <p>
+                                        My job is to create attractive websites that users can easily interact with.
+                                    </p>
+                                    <p>
+                                        My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                                    </p>
 
-                                        <p>
-                                            Currently, I am seeking an entry level job in Frontend web development to utilize my digital skills and gain industry knowledge.
-                                        </p>
-                                        <br />
+                                    <p>
+                                        Currently, I am seeking an entry level job in Frontend web development to utilize my digital skills and gain industry knowledge.
+                                    </p>
+                                    <br />
+                                    <p>
                                         Here are techonologies I've been working with currently:
-                                    </Slide>
-                                </p>
-                            </div>
+                                    </p>
+
+                                </div>
+                            </Slide>
                             {/* techs */}
                             <div className='flex justify-center'>
                                 <div className='tech py-8'>

@@ -13,13 +13,13 @@ const Header = () => {
     return (
         <>
             {/* Section */}
-            < section className='h-[100%] pt-24 pb-12' >
+            <section className='h-[100%] pt-24 pb-12' >
 
                 {/* Container */}
-                < div div className='max-w-[1140px] m-auto flex flex-col' >
+                <div className='max-w-[1140px] m-auto flex flex-col' >
 
                     {/* Text */}
-                    <div div className='flex flex-col items-center justify-center py-8' >
+                    <div className='flex flex-col items-center justify-center py-8' >
                         <div className='flex flex-col justify-center items-center'>
                             <div className='text-xl font-semibold py-2 text-gray-500'>
                                 <h1>Hii, My Name is</h1>
