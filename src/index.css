@@ -147,7 +147,7 @@
 }
 
 .spinner span {
- animation: loading6454 1.75s ease infinite;
+ animation: loading6454 1.5s ease infinite;
 }
 
 .spinner span:nth-child(2) {
@@ -172,6 +172,10 @@
 
 .spinner span:nth-child(7) {
  animation-delay: 1.5s;
+}
+
+.spinner span:nth-child(8) {
+ animation-delay: 1.75s;
 }
 
 @keyframes loading6454 {
