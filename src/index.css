@@ -20,7 +20,6 @@
         @apply font-semibold text-gray-300
     }
 
-
 }
 
 /* scroll bar */
@@ -69,7 +68,7 @@
     color: #f6ccef;
     margin-top: 10px;
     min-width: 130px;
-    padding: 10px 15px;
+    padding: 8px 12px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -103,7 +102,6 @@
 .header-button:active {
     color: #1c0c5b;
 }
-
 /* Header button end */
 
 /* footer image */

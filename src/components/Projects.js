@@ -6,8 +6,6 @@ import game from '../image/number.PNG';
 import ping from '../image/ping-game.PNG'
 import Zoom from 'react-reveal/Zoom';
 
-
-
 const Projects = () => {
     return (
         // Projects container
@@ -29,7 +27,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='/'>
+                                <a href='https://amazon-clone-plum-two.vercel.app/' target='_blank' rel="noreferrer" >
                                     <img src={amazon} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
@@ -52,7 +50,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='/'>
+                                <a href='https://crypro-tracker.vercel.app/' target='_blank' rel="noreferrer">
                                     <img src={crypto} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
@@ -74,7 +72,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center py-8 '>
                             <Zoom bottom>
-                                <a href='/'>
+                                <a href='https://college-website-theta.vercel.app/' target='_blank' rel="noreferrer">
                                     <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
@@ -97,7 +95,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='/'>
+                                <a href='https://sumit-guessgame.netlify.app/' target='_blank' rel="noreferrer">
                                     <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
@@ -119,12 +117,12 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='/'>
+                                <a href='https://sumit-pinggame.netlify.app/' target='_blank' rel="noreferrer">
                                     <img src={ping} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>PING GAME</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>DICE ROLL GAME</span>
                             {/* techs */}
                             <div className='tech py-4'>
                                 <p className='py-3'>Html</p>

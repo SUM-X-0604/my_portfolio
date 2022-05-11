@@ -51,14 +51,14 @@ const Header = () => {
                             </div>
                             <div className='flex flex-col text-gray-500'>
                                 <LightSpeed left>
-                                    <button className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl '>
+                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='#contact'>
                                         Hire Me
-                                    </button>
+                                    </a>
                                 </LightSpeed>
                                 <LightSpeed right>
-                                    <button className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl'>
+                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://drive.google.com/file/d/1cE1Gmt31BDkLwKQ60uIOEVojz0KhXQ1c/view?usp=sharing' target='_blank' rel='noreferrer'>
                                         View Resume
-                                    </button>
+                                    </a>
                                 </LightSpeed>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Header = () => {
                     <div className='py-6 px-8 max-w-[600px] m-auto flex justify-center flex-shrink-0 items-center space-x-16 sm:space-x-20 md:space-x-28 lg:space-x-36 text-gray-300'>
                         {/* Github */}
                         <Fade bottom big>
-                            <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer" >
                                 <AiFillGithub size={20} />
                             </a>
                         </Fade>

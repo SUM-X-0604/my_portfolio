@@ -28,8 +28,10 @@ const Contact = () => {
                             <UilPhone className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
-                            <h1 className='text-xl font-bold text-gray-300'>Call Me</h1>
-                            <p className='text-gray-500'>+91 7999001618</p>
+                            <a href="tel:7999001618" target='_blank' rel="noreferrer">
+                                <h1 className='text-xl font-bold text-gray-300'>Call Me</h1>
+                                <p className='text-gray-500'>+91 7999001618, 8462805060</p>
+                            </a>
                         </div>
                     </Fade>
                 </div>
@@ -42,8 +44,10 @@ const Contact = () => {
                             <AiOutlineMail className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
-                            <h1 className='text-xl font-bold text-gray-300'>Email</h1>
-                            <p className='text-gray-500'>sumeet0604.sv@gmail.com</p>
+                            <a href="mailto:sumeet0604.sv@gmail.com" target='_blank' rel="noreferrer">
+                                <h1 className='text-xl font-bold text-gray-300'>Email</h1>
+                                <p className='text-gray-500'>sumeet0604.sv@gmail.com</p>
+                            </a>
                         </div>
                     </Fade>
                 </div>
@@ -57,8 +61,10 @@ const Contact = () => {
                             <BsWhatsapp className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
-                            <h1 className='text-xl font-bold text-gray-300'>Whatsapp</h1>
-                            <p className='text-gray-500'>+91 7999001618</p>
+                            <a href="https://api.whatsapp.com/send?phone=7999001618" target='_blank' rel="noreferrer">
+                                <h1 className='text-xl font-bold text-gray-300'>Whatsapp</h1>
+                                <p className='text-gray-500'>+91 7999001618</p>
+                            </a>
                         </div>
                     </Fade>
                 </div>
