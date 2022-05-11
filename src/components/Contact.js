@@ -77,8 +77,10 @@ const Contact = () => {
                             <GoLocation className="h-8 w-10 text-blue-700" />
                         </div>
                         <div className='leading-6' >
-                            <h1 className='text-xl font-bold text-gray-300'>Location</h1>
-                            <p className='text-gray-500'>Raipur(CG), India</p>
+                            <a href="https://www.google.com/maps/place/Raipur,+Chhattisgarh/@21.261848,81.4793298,11z/data=!3m1!4b1!4m5!3m4!1s0x3a28dda23be28229:0x163ee1204ff9e240!8m2!3d21.251382!4d81.6296411" target='_blank' rel="noreferrer">
+                                <h1 className='text-xl font-bold text-gray-300'>Location</h1>
+                                <p className='text-gray-500'>Raipur(CG), India</p>
+                            </a>
                         </div>
                     </Fade>
                 </div>
