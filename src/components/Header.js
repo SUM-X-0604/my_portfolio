@@ -56,7 +56,7 @@ const Header = () => {
                                     </a>
                                 </LightSpeed>
                                 <LightSpeed right>
-                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='../image/Resume.pdf' target='_blank' rel='noreferrer'>
+                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://drive.google.com/file/d/1cE1Gmt31BDkLwKQ60uIOEVojz0KhXQ1c/view?usp=sharing' target='_blank' rel='noreferrer'>
                                         View Resume
                                     </a>
                                 </LightSpeed>
