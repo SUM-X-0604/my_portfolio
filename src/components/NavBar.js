@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className={nav ? 'nav-container active ' : 'nav-container'}>
             <div className="navbar">
                 <div className="logo ">
-                    <h1 className='px-1' onClick={handleScroll}>SUMIT</h1>
+                    <h1 className='px-1 font-extrabold' onClick={handleScroll}>SUM<span className='text-red-800 font-extrabold'>IT</span> </h1>
                 </div>
 
                 <div className={click ? 'list-group active' : 'list-group'}>

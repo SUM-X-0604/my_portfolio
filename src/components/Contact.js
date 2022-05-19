@@ -30,7 +30,7 @@ const Contact = () => {
                         <div className='leading-6' >
                             <a href="tel:7999001618" target='_blank' rel="noreferrer">
                                 <h1 className='text-xl font-bold text-gray-300'>Call Me</h1>
-                                <p className='text-gray-500'>+91 7999001618, 8462805060</p>
+                                <p className='text-gray-500'>+91 8462805060</p>
                             </a>
                         </div>
                     </Fade>

@@ -4,6 +4,11 @@
 
     
 @layer components {
+
+    html {
+        font-family: 'Patrick Hand', cursive;
+    }
+
     .navlink {
         @apply cursor-pointer transition hover:scale-110 ease-in-out hover:text-indigo-800
     }

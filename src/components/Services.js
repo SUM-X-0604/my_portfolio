@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { CgWebsite } from 'react-icons/cg';
 import { AiOutlineArrowRight } from 'react-icons/ai'
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md'
-import UiModal from './UiModal';
-import FrontendModal from './FrontendModal';
 import Fade from 'react-reveal/Fade';
 
 

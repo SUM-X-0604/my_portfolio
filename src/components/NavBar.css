@@ -30,7 +30,7 @@
 
 .logo > h1 {
     color: #f6ccef;
-    font-size: 19px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -63,7 +63,7 @@
     text-decoration: none;
     margin: 0  25px;
     color: #f6ccef;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
     text-transform: capitalize;
     font-weight: 400;

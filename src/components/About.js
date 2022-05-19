@@ -22,21 +22,21 @@ const About = () => {
                         {/* Details */}
                         <div className='px-8 flex justify-center items-center flex-col text-gray-500'>
                             <Slide bottom>
-                                <div className='md:text-lg lg:text-xl'>
+                                <div className='md:text-lg lg:text-xl capitalize'>
                                     <p>
                                         Hello, my name is
                                         <span className='font-semibold px-1'> Sumit Verma.
                                         </span>
                                     </p>
                                     <p>
-                                        I am a Frontend web developer who resides in Raipur(C.G.). I am BCA Graduate and MCA second year student.
+                                        I am a Frontend web developer i live in Raipur(C.G.). I am BCA Graduate and MCA second year student.
                                     </p>
 
                                     <p>
-                                        My job is to create attractive websites that users can easily interact with.
+                                        My job is to create attractive websites that user's can easily interact with.
                                     </p>
                                     <p>
-                                        My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
+                                        My main focus is to building accessible, inclusive products and digital experiences at Upstatement for a variety of clients.
                                     </p>
 
                                     <p>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
+
 import Fade from 'react-reveal/Fade';
-import Bounce from 'react-reveal/Bounce';
+
 
 
 
