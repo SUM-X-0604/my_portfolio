@@ -2,7 +2,8 @@ import React from 'react';
 import amazon from '../image/amazon.PNG';
 import crypto from '../image/crypto.PNG';
 import college from '../image/college.PNG';
-import game from '../image/number.PNG';
+// import game from '../image/number.PNG';
+import movies from '../image/hulu.PNG'
 import ngo from '../image/nikk-social.PNG'
 import ping from '../image/ping-game.PNG'
 import Zoom from 'react-reveal/Zoom';
@@ -71,7 +72,7 @@ const Projects = () => {
                     {/*3rd project items */}
                     <div className='flex justify-center items-center flex-grow'>
                         {/* image */}
-                        <div className='flex flex-col items-center justify-center pt-8 '>
+                        <div className='flex flex-col items-center justify-center'>
                             <Zoom bottom>
                                 <a href='https://college-website-theta.vercel.app/' target='_blank' rel="noreferrer">
                                     <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
@@ -91,7 +92,7 @@ const Projects = () => {
                     {/*3rd project items end */}
 
                     {/* 4th project items start */}
-                    <div className='flex justify-center items-center flex-grow pt-8'>
+                    <div className='flex justify-center items-center flex-grow lg:pt-8'>
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
@@ -118,17 +119,17 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='https://sumit-guessgame.netlify.app/' target='_blank' rel="noreferrer">
-                                    <img src={game} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
+                                <a href='https://hulu-five-lac.vercel.app/' target='_blank' rel="noreferrer">
+                                    <img src={movies} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>NUMBER GAME</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>MOVIES LIST</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p className='py-3'>Html</p>
-                                <p className='py-3'>Css</p>
-                                <p className='py-3'>JavaScript</p>
+                                <p className='py-3'>Tailwind</p>
+                                <p className='py-3'>React Js</p>
+                                <p className='py-3'>Next Js</p>
                             </div>
 
                         </div>
