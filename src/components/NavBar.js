@@ -17,7 +17,10 @@ const Navbar = () => {
 
     const [click, setClick] = useState(false)
 
-    const handleClick = () => setClick(!click);
+    const handleClick = () => {
+        setClick(!click);
+        click(false)
+    }
 
     const handleScroll = () => {
         window.scrollTo({
