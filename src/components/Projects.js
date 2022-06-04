@@ -96,7 +96,7 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='https://sumit-guessgame.netlify.app/' target='_blank' rel="noreferrer">
+                                <a href='https://nikk-social.vercel.app/' target='_blank' rel="noreferrer">
                                     <img src={ngo} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow' />
                                 </a>
                             </Zoom>

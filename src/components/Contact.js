@@ -16,7 +16,7 @@ const Contact = () => {
             <div className='flex flex-col justify-center items-center'>
                 <h1 className='text-2xl font-bold text-gray-200 md:text-3xl'>Contact Me</h1>
                 <p className='text-md text-gray-500 font-semibold md:text-lg'>Get in touch</p>
-            </div>
+            </div> 8878889400
 
 
             <div className='py-8 px-4 flex flex-col items-start lg:flex-row lg:items-center lg:justify-evenly'>
