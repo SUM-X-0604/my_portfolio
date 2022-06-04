@@ -37,7 +37,7 @@ const Navbar = () => {
                     <h1 className='px-1 font-extrabold' onClick={handleScroll}>SUMIT</h1>
                 </div>
 
-                <div className={click ? 'list-group active' : 'list-group'}>
+                <div className={click ? 'list-group active' : 'list-group'} onClick={handleClick}>
                     <Link
                         className='nav-link'
                         activeClass="active"
