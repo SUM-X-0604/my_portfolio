@@ -19,7 +19,6 @@ const Navbar = () => {
 
     const handleClick = () => {
         setClick(!click);
-        click(false)
     }
 
     const handleScroll = () => {
