@@ -56,7 +56,7 @@ const Header = () => {
                                     </a>
                                 </LightSpeed>
                                 <LightSpeed right>
-                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://docs.google.com/document/d/1mv2mCCqzHHBkYPsi58EFmlf_2HVUXsms/edit?usp=sharing&ouid=114386286868585341970&rtpof=true&sd=true' target='_blank' rel='noreferrer'>
+                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://drive.google.com/file/d/1KJT4lXxcUOpqfG4geUmIY__SlAz5CnI2/view?usp=sharing' target='_blank' rel='noreferrer'>
                                         View Resume
                                     </a>
                                 </LightSpeed>
