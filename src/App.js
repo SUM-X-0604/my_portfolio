@@ -6,10 +6,7 @@ import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Offer from "./components/Offer";
 import Projects from "./components/Projects";
-
 import Loader from "./components/Loader";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 
 
 function App() {
@@ -23,9 +20,6 @@ function App() {
     }, 3000);
   }, []);
 
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
 
   return (
     <>
@@ -35,11 +29,10 @@ function App() {
             <Loader />
           </div>
           :
-          <div className="bg-[#1C0C5B] ">
+          <div className="bg-[#1C0C5B] w-full">
             <Header />
             <NavBar />
             <About />
-            {/* <Services /> */}
             <Projects />
             <Offer />
             <Contact />

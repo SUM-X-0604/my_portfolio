@@ -11,7 +11,7 @@ const About = () => {
 
                 {/* heading */}
                 <div className='flex justify-center pb-8 '>
-                    <h1 className='text-2xl font-bold text-gray-400 sm:text-3xl md:text-4xl lg:text-5xl'>ABOUT ME</h1>
+                    <h1 className='text-2xl font-bold text-gray-300 sm:text-3xl md:text-4xl lg:text-5xl'>ABOUT ME</h1>
                 </div>
 
                 {/* container */}
@@ -20,7 +20,7 @@ const About = () => {
                     {/* Text container */}
                     <div className='px-4 flex flex-col justify-center items-center'>
                         {/* Details */}
-                        <div className='px-8 flex justify-center items-center flex-col text-gray-500'>
+                        <div className='px-8 flex justify-center items-center flex-col text-gray-400'>
                             <Slide bottom>
                                 <div className='md:text-lg lg:text-xl capitalize'>
                                     <p>

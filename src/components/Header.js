@@ -4,7 +4,6 @@ import { FaTwitter, FaInstagramSquare } from 'react-icons/fa'
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Tada from 'react-reveal/Tada';
 import LightSpeed from 'react-reveal/LightSpeed';
-// import HeadShake from 'react-reveal/HeadShake';
 import Fade from 'react-reveal/Fade';
 
 
@@ -41,12 +40,12 @@ const Header = () => {
                             </div>
 
                             <div className='pb-2' >
-                                <h1 className='text-lg text-gray-500 font-semibold md:text-xl' >Frontend Developer</h1>
+                                <h1 className='text-lg text-gray-400 font-semibold md:text-xl' >Frontend Developer</h1>
                             </div>
 
-                            <div className='text-center text-gray-500 px-2 pb-4 text-md sm:text-lg md:text-xl '>
+                            <div className='text-center text-gray-400 px-2 pb-4 text-md sm:text-lg md:text-xl '>
                                 <Fade left big>
-                                    <p >Innovative Front End Developer with good experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences.</p>
+                                    <p>Innovative Front End Developer with good experience in maintaining and building web pages. I like to craft solid and scalable frontend products with great user experiences.</p>
                                 </Fade>
                             </div>
                             <div className='flex flex-col text-gray-500'>
@@ -56,7 +55,7 @@ const Header = () => {
                                     </a>
                                 </LightSpeed>
                                 <LightSpeed right>
-                                    <a className='header-button  font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://drive.google.com/file/d/1KJT4lXxcUOpqfG4geUmIY__SlAz5CnI2/view?usp=sharing' target='_blank' rel='noreferrer'>
+                                    <a className='header-button font-semibold sm:text-lg md:text-xl lg:text-2xl' href='https://drive.google.com/file/d/1KJT4lXxcUOpqfG4geUmIY__SlAz5CnI2/view?usp=sharing' target='_blank' rel='noreferrer'>
                                         View Resume
                                     </a>
                                 </LightSpeed>
@@ -71,29 +70,28 @@ const Header = () => {
                     <div className='py-6 px-8 max-w-[600px] m-auto flex justify-center flex-shrink-0 items-center space-x-16 sm:space-x-20 md:space-x-28 lg:space-x-36 text-gray-300'>
                         {/* Github */}
                         <Fade bottom big>
-                            <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer" >
-                                <AiFillGithub size={20} />
+                            <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer"  >
+                                <AiFillGithub size={20} className='hover:animate-spin' />
                             </a>
                         </Fade>
                         {/* Twitter */}
                         <Fade top big>
                             <a href="https://twitter.com/_Fire_hawk" target="_blank" rel="noreferrer">
-                                <FaTwitter size={20} />
+                                <FaTwitter size={20} className='hover:animate-spin' />
                             </a>
                         </Fade>
                         {/* Linkedin */}
                         <Fade bottom big>
 
                             <a href="https://www.linkedin.com/in/sumit-verma-07835a210/" target="_blank" rel="noreferrer">
-                                <AiFillLinkedin size={20} />
+                                <AiFillLinkedin size={20} className='hover:animate-spin' />
                             </a>
                         </Fade>
 
                         {/* instagram */}
                         <Fade top big>
-
                             <a href="https://www.instagram.com/__fire_hawk/" target="_blank" rel="noreferrer">
-                                <FaInstagramSquare size={20} />
+                                <FaInstagramSquare size={20} className='hover:animate-spin' />
                             </a>
                         </Fade>
                     </div>

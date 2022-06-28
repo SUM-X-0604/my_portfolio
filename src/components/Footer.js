@@ -27,19 +27,19 @@ const Footer = () => {
                     <Fade bottom>
                         {/* Github */}
                         <a href="https://github.com/SUM-X-0604" target="_blank" rel="noreferrer">
-                            <AiFillGithub size={20} />
+                            <AiFillGithub size={20} className='hover:animate-spin' />
                         </a>
                         {/* Twitter */}
                         <a href="https://twitter.com/_Fire_hawk" target="_blank" rel="noreferrer">
-                            <FaTwitter size={20} />
+                            <FaTwitter size={20} className='hover:animate-spin' />
                         </a>
                         {/* Linkedin */}
                         <a href="https://www.linkedin.com/in/sumit-verma-07835a210/" target="_blank" rel="noreferrer">
-                            <AiFillLinkedin size={20} />
+                            <AiFillLinkedin size={20} className='hover:animate-spin' />
                         </a>
                         {/* instagram */}
                         <a href="https://www.instagram.com/__fire_hawk/" target="_blank" rel="noreferrer">
-                            <FaInstagramSquare size={20} />
+                            <FaInstagramSquare size={20} className='hover:animate-spin' />
                         </a>
                     </Fade>
                 </div>

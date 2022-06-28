@@ -49,7 +49,6 @@ const Navbar = () => {
                         Home
                     </Link>
 
-
                     <Link
                         className='nav-link'
                         activeClass="active"
