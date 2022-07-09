@@ -1,7 +1,8 @@
 import React from 'react';
 import amazon from '../image/amazon.PNG';
 import crypto from '../image/crypto.PNG';
-import college from '../image/college.PNG';
+// import college from '../image/college.PNG';
+import foodDelivery from '../image/food-delivery.PNG'
 import movies from '../image/hulu.PNG'
 import ngo from '../image/nikk-social.PNG'
 import Zoom from 'react-reveal/Zoom';
@@ -139,17 +140,17 @@ const Projects = () => {
                         {/* image */}
                         <div className='flex flex-col items-center justify-center '>
                             <Zoom bottom>
-                                <a href='https://college-website-theta.vercel.app/' target='_blank' rel="noreferrer">
-                                    <img src={college} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow px-2' />
+                                <a href='https://food-delivery-nu.vercel.app/' target='_blank' rel="noreferrer">
+                                    <img src={foodDelivery} alt="" className='h-44 w-[350px] rounded-md bg-cover bg-no-repeat flex-grow px-2' />
                                 </a>
                             </Zoom>
                             {/* h1 */}
-                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>COLLEGE WEBSITE</span>
+                            <span className='pt-8 font-bold text-gray-500 text-xl md:text-2xl'>FOOD DELIVERY APP</span>
                             {/* techs */}
                             <div className='tech py-4'>
-                                <p className='py-3'>Html</p>
-                                <p className='py-3'>Sass</p>
-                                <p className='py-3'>JavaScript</p>
+                                <p className='py-3'>React</p>
+                                <p className='py-3'>Tailwind</p>
+                                <p className='py-3'>Firebase</p>
                             </div>
                         </div>
                     </div>
